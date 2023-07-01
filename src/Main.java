@@ -26,6 +26,7 @@ public class Main {
             System.out.println(cat);
         }
 
+
         // dogの名前を出力
         for (String dog : dogs) {
             System.out.println(dog);
