@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         List<String> cats = List.of("Tama", "Hachi", "Goro", "Nana");
         List<String> dogs = new ArrayList<>();
