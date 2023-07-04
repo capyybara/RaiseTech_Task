@@ -47,12 +47,8 @@ public class Owner {
         } catch (IndexOutOfBoundsException e) {
             System.out.println("配列の範囲外です");
         }
-
-
     }
-
 
 }
 
 ```
-### 修正版

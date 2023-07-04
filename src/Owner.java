@@ -15,7 +15,6 @@ public class Owner {
             System.out.println("配列の範囲外です");
         }
 
-
     }
 
 
