@@ -33,7 +33,7 @@ public class Main {
 ```
 public class Owner {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
         String[] catowner = {"近藤", "徳川", "今川", "伊達", "武田"};
         int index = 6;
@@ -43,8 +43,8 @@ public class Owner {
 
         try {
             System.out.println(catowner[index]);
-            throw new Exception();
-        } catch (Exception e) {
+            throw new IndexOutOfBoundsException();
+        } catch (IndexOutOfBoundsException e) {
             System.out.println("配列の範囲外です");
         }
 

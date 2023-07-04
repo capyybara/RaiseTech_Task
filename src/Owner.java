@@ -12,8 +12,8 @@ public class Owner {
 
         try {
             System.out.println(catowner[index]);
-            throw new Exception();
-        } catch (Exception e) {
+            throw new IndexOutOfBoundsException();
+        } catch (IndexOutOfBoundsException e) {
             System.out.println("配列の範囲外です");
         }
 
