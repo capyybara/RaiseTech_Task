@@ -13,7 +13,6 @@ public class Main {
         catdata.put(5, "Hana");
 
         for (Map.Entry<Integer, String> entry : catdata.entrySet()) {
-
             System.out.println(entry.getValue() + "は" + entry.getKey() + "歳です");
         }
 

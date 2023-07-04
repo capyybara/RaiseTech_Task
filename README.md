@@ -1,10 +1,9 @@
 # RaiseTech_Task
-##第3回目課題
+## 第3回目課題
 
 ```
 import java.util.HashMap;
 import java.util.Map;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -16,12 +15,9 @@ public class Main {
         catdata.put(4, "Goro");
         catdata.put(5, "Hana");
 
-
         for (Map.Entry<Integer, String> entry : catdata.entrySet()) {
-
             System.out.println(entry.getValue() + "は" + entry.getKey() + "歳です");
         }
-
 
     }
 
@@ -30,7 +26,9 @@ public class Main {
 
 ```
 
-###例外処理
+***
+
+### 例外処理
 
 ```
 public class Owner {
